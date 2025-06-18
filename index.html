@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+    
+  </head>
+  <body>
+    <section class="Weather-app">
+      <h1 class="title">🌤 Weather App</h1>
+      <div class="search-bar">
+        <input
+          class="input-bar"
+          type="text"
+          id="cityInput"
+          placeholder="Enter city name"
+        />
+        <button class="search-btn" onclick="getWeather()">Search</button>
+      </div>
+
+      <div class="result-data" id="result"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
